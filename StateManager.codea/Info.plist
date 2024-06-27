@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Buffer Order</key>
+	<array>
+		<string>Main</string>
+		<string>GameStateManager</string>
+		<string>BaseState</string>
+		<string>LoadingState</string>
+		<string>Readme</string>
+	</array>
+	<key>Tint Color</key>
+	<data>
+	YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMS
+	AAGGoF8QD05TS2V5ZWRBcmNoaXZlctEICVRyb290gAGjCwwdVSRudWxs2A0ODxAREhMU
+	FRYXGBkaGxxfEBVVSUNvbG9yQ29tcG9uZW50Q291bnRXVUlHcmVlblZVSUJsdWVXVUlB
+	bHBoYVVOU1JHQlYkY2xhc3NVVUlSZWRcTlNDb2xvclNwYWNlEAQiNgWm7SI/MRjQIj+A
+	AABPEBQwLjg0NyAxLjk5ZS0wNiAwLjY5MoACIj9Y46wQAtMeHyAhIiRaJGNsYXNzbmFt
+	ZVgkY2xhc3Nlc1skY2xhc3NoaW50c1dVSUNvbG9yoiEjWE5TT2JqZWN0oSVXTlNDb2xv
+	cgAIABEAGgAkACkAMgA3AEkATABRAFMAVwBdAG4AhgCOAJUAnQCjAKoAsAC9AL8AxADJ
+	AM4A5QDnAOwA7gD1AQABCQEVAR0BIAEpASsAAAAAAAACAQAAAAAAAAAmAAAAAAAAAAAA
+	AAAAAAABMw==
+	</data>
+</dict>
+</plist>
