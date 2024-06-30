@@ -1,5 +1,4 @@
 -- Main.lua
-
 function setup()
   -- Initialize game setup here (executes once)
   gameStateManager = GameStateManager()
@@ -13,5 +12,6 @@ function draw()
 end
 
 function touched(touch)
+  -- captures touch and passes it to the manager
   gameStateManager:touched(touch)
 end
