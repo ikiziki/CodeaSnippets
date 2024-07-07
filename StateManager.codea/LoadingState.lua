@@ -1,27 +1,26 @@
--- LoadingState.lua
-LoadingState = class(BaseState)
+LoadingState = class()
 
 function LoadingState:init()
-  -- initialization here
 end
 
 function LoadingState:enter()
-  -- Load assets, initialize variables, etc.
 end
 
 function LoadingState:exit()
-  -- clean up before exiting state
 end
 
-function LoadingState:update(dt)
-  -- Update loading progress or any dynamic loading logic
+function LoadingState:pause()
+end
+
+function LoadingState:resume()
+end
+
+function LoadingState:update(DeltaTime)
 end
 
 function LoadingState:draw()
-  -- Draw loading screen graphics
 end
 
 function LoadingState:touched(touch)
-  -- handle tounch interactions
 end
 

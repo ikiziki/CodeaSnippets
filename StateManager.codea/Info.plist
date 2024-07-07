@@ -6,9 +6,7 @@
 	<array>
 		<string>Main</string>
 		<string>GameStateManager</string>
-		<string>BaseState</string>
 		<string>LoadingState</string>
-		<string>Readme</string>
 	</array>
 	<key>Tint Color</key>
 	<data>

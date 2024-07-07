@@ -1,17 +1,20 @@
--- Main.lua
+
 function setup()
-  -- Initialize game setup here (executes once)
   gameStateManager = GameStateManager()
-  gameStateManager:switchState(LoadingState())
+  local initialState = LoadingState()
+  if initialState and initialState.enter then
+    initialState:enter()
+  end
+  gameStateManager:switchState(initialState)
 end
 
 function draw()
-  -- Update and draw graphics here (runs 60 times per second)
+  if not gameStateManager then return end
   gameStateManager:update(DeltaTime)
   gameStateManager:draw()
 end
 
 function touched(touch)
-  -- captures touch and passes it to the manager
+  if not gameStateManager then return end
   gameStateManager:touched(touch)
 end
