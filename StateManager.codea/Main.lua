@@ -1,5 +1,6 @@
 
 function setup()
+  viewer.mode = FULLSCREEN
   gameStateManager = GameStateManager()
   local initialState = LoadingState()
   if initialState and initialState.enter then
